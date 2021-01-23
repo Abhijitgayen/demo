@@ -125,12 +125,9 @@ html{
 /*Technical skills end*/
 #footer{
     top:1875px;
-    left: 1050px;
-    position: absolute;
+    left:0px;
+    position: absolute;  
     font-size: 15px;
-}
-#print{
-    background-image: linear-gradient(rgb(16, 140, 161),rgb(186, 231, 248));
-    text-align: right;
-
+    /* background-color: black; */
+     
 }
