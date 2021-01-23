@@ -36,10 +36,6 @@ nev li{
 
 }
 /*contact*/
-#contact ul{
-    text-align: center;
-    padding:15px;
-}
 
 
 
@@ -49,14 +45,7 @@ nev li{
 
 
 
-#contact ul li{
-    height: 126px;
-    width: 203px;
-    padding:5px;
-    list-style: none;
-    background-color: burlywood;
-
-}
+ 
  
 
 
@@ -73,33 +62,4 @@ footer{
     font-size: 15px;
     font-weight:100;
 }
-/* for tablet*/
-@media(max-width:725px){
-nev ul{
-    position: absolute;
-    left: 12%;   
-    }
  
-#contact ul{
-    background-color: red;
-        text-align: center;
-        font-size: 25px;
-    }
-    
-#contact ul li{
-    height: 155px;
-    width: 425px; 
-    text-align: center;
-    font-size: 25px;
-}
-
-
-    
-
-}
-@media(min-width:725px){
-    #contact ul li{
-    
-    display: inline-block ;}
-
-}
