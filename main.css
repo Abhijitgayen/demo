@@ -15,19 +15,17 @@ header{
 }
 nev ul{
     color: burlywood;
-    padding: 12px;
+    padding: 0px;
     position: absolute;
     left: 25px; 
 }
 nev li{
     color: red;
     display: inline;
-    
     list-style: none;
-    padding:1px 12px ;
     background-color: rgb(250, 249, 248);
      border:1px solid ;
-     padding: 14px;
+     padding: 1px 5px;
     
 }
  nev a{
