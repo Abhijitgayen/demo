@@ -317,19 +317,29 @@ html {
     margin: 10px auto;
 
 }
+.education{
+    background: #0f80ac11;
+    padding: 3px;
+    border-radius: 0% 0%  80% 0%;
+     
+}
 
-.section-heading {
+.section-heading,.education {
     text-align: center;
     padding: 80px 45px;
 }
 
-.section-heading h2 {
+.section-heading h2,.education h4 {
     font-size: 32px;
     font-weight: 700;
     color: #fff;
 }
-
-.section-heading .line-dec {
+.education .line-dec{
+    padding: 3px;
+    border-radius: 80%;
+    background-color: rgb(240, 233, 233);
+}
+.section-heading .line-dec  {
     width: 60px;
     height: 3px;
     background-color: #175c94;
@@ -380,7 +390,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
+    background-color: #31c9c9;
     color: #fff;
 }
 
