@@ -320,8 +320,7 @@ html {
 .education{
     background: #0f80ac11;
     padding: 3px;
-    border-radius: 0% 0%  80% 0%;
-     
+    border-radius: 0% 0%  50% 0%; 
 }
 
 .section-heading,.education {
@@ -335,9 +334,9 @@ html {
     color: #fff;
 }
 .education .line-dec{
-    padding: 3px;
-    border-radius: 80%;
-    background-color: rgb(240, 233, 233);
+    padding: 2px;
+     /* border-radius: 18%; */
+    background-color: rgba(240, 233, 233, 0.164);
 }
 .section-heading .line-dec  {
     width: 60px;
@@ -352,8 +351,68 @@ html {
     color: #fff;
     letter-spacing: 0.5px;
 }
+.skill{
+    background-color: #0f80ac11;
+    border-radius: 90% 0%  0% 0%;
+}
+.skill h2{
+    text-align: center;
+}
+.skillAll .line{
+    padding: 2px;
+    background-color: rgba(240, 234, 234, 0.103);
+}
+.skillAll{
+    text-align: left;
+    padding: 20px 95px ;
 
-
+}
+.skillAll .html,.skillAll .css,.skillAll .Javascript,.skillAll .c,.skillAll .cpp{
+    padding: 10px 1px;
+      
+}
+.persentage{
+    padding: 2px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(8, 139, 179, 0.692);
+}
+.c .persentage .data{
+    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-color: white;
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cpp .persentage .data{
+    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.html .persentage .data{
+    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.css .persentage .data{
+    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-color: white;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.Javascript .persentage .data{
+    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+}
 /* Buttons */
 
 .white-button a {
@@ -377,7 +436,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #a43f49;
+    color: #0e8ba1;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
