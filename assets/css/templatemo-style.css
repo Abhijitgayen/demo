@@ -229,7 +229,7 @@ html {
 
 .menu {
     left: 10%;
-  -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+  /* -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1); */
   -webkit-overflow-scrolling: touch;
   background-color: #0e8fc2;
   box-sizing: border-box;
@@ -600,8 +600,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #a43f49;
-    border-bottom: 2px solid #a43f49;
+    color: #26b0b9;
+    border-bottom: 2px solid #24b1bb;
 }
 
 .isotope-box {
@@ -683,7 +683,7 @@ figure.snip1321 span {
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #a43f49;
+  background-color: #3f98a4;
   width: 40px;
   height: 40px;
   display: inline-block;
