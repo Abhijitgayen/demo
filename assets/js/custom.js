@@ -1,6 +1,6 @@
 $("#preloader").animate({
   'opacity': '0'
-}, 6000, function(){
+}, 4000, function(){
   setTimeout(function(){
       $("#preloader").css("visibility", "hidden").fadeOut();
   }, 3000);
