@@ -249,7 +249,7 @@ html {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.007);
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
@@ -259,7 +259,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #095480;
+    color: #2da7ee;
 }
 
 .menu .copy {
@@ -390,39 +390,56 @@ html {
     margin: 10px auto;
 
 }
-.education{
-    background: #0f80ac11;
-    padding: 3px;
-    /* border-radius: 0% 0%  50% 0%;  */
+.hello{
+    padding-top: 12px;
+    text-align: center;
+}
+/* my project */
+.allproject spam{
+    background-color: blue;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: times;
+    padding: 6px;
+    border-radius: 15px;
+
 }
 
-.section-heading,.education {
+/* about me */
+
+/* .section-heading .education {
     text-align: center;
     padding: 80px 45px;
-}
+} */
 
-.section-heading h2,.education h4 {
+.section-heading h2  {
+    padding-top: 23px;
     font-size: 35px;
     font-weight: 700;
     color: #fff;
+    text-align: center;
 }
-.education .line-dec{
-    padding: 2px;
-     /* border-radius: 18%; */
-    background-color: rgba(240, 233, 233, 0.164);
+
+.intro{
+    text-align: center;    
+}
+
+.education{
+    background: #0f80ac11;
+    padding: 22px;
+    text-align: center;
+}
+.education .line{
+    width: 80%;
+    height: 3px;
+    background-color: #cddeec49;
+    margin: 10px auto;
 }
 .section-heading .line-dec  {
     width: 60px;
     height: 3px;
     background-color: #175c94;
     margin: 10px auto;
-}
-
-.section-heading span {
-    margin-top: 5px;
-    font-size: 16px;
-    color: #fff;
-    letter-spacing: 0.5px;
 }
 .skill{
     margin-top: 12px;
@@ -433,8 +450,10 @@ html {
     text-align: center;
 }
 .skillAll .line{
-    padding: 2px;
-    background-color: rgba(240, 234, 234, 0.103);
+    width: 80%;
+    height: 3px;
+    background-color: #cddeec49;
+    margin: 10px auto;
 }
 .skillAll{
     text-align: left;
@@ -575,6 +594,12 @@ button:hover {
     font-size: 15px;
 }
 /*experience*/
+#expall span{
+    color: black;
+    background-color: rgba(253, 251, 247, 0.459);
+    border-radius: 154px;
+
+}
 #experience{
     margin-top: 12px;
     background-color: #3d84be10;
@@ -599,6 +624,10 @@ button:hover {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
+
+
+
+
 
 /* Services */
 
