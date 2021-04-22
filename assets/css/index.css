@@ -396,12 +396,14 @@ html {
 }
 /* my project */
 .allproject spam{
-    background-color: blue;
+    background-color: rgba(238, 230, 230, 0.137);
+    color: black;
     font-size: 26px;
     font-weight: bold;
     font-family: times;
     padding: 6px;
     border-radius: 15px;
+    text-shadow: 1px 1px rgb(97, 180, 206) ;
 
 }
 
@@ -620,7 +622,7 @@ button:hover {
 #experience  span{
     text-align: left;
     padding: 10px;
-    font-size: 25px;
+    font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
