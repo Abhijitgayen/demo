@@ -1,10 +1,4 @@
-$("#preloader").animate({
-  'opacity': '0'
-}, 4000, function(){
-  setTimeout(function(){
-      $("#preloader").css("visibility", "hidden").fadeOut();
-  }, 3000);
-});
+
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
