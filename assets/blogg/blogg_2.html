@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confomal Map</title>
+    <link rel="stylesheet" href="blogg.css" />
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <h4> This is a blogg 2</h4>
+    <script src="jquery.min.js"></script>
+    <script>
+        $("#preloader").animate({
+            'opacity': '0'
+        }, 4000, function () {
+            setTimeout(function () {
+                $("#preloader").css("visibility", "hidden").fadeOut();
+            }, 3000);
+        });
+    </script> 
+
+</body>
+
+</html>
