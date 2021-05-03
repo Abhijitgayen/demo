@@ -2,14 +2,15 @@
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 :root{
-    --main: rgb(71, 201, 224);
-    --deepmian:rgb(14, 144, 204);
-    --submain: rgba(156, 229, 241, 0.774);
-    --background :rgba(54, 52, 52, 0.322);
-    --havbackground:rgba(144, 220, 230, 0.863);
+    --main: rgb(9, 138, 170);
+    --deepmian:rgb(7, 102, 146);
+    --submain: rgba(91, 215, 247, 0.774);
+    --background :rgba(54, 52, 52,0.322);
+    --havbackground:rgba(192, 225, 235, 0.534);
     --havtxtcolor:rgb(5, 1, 1);
-    --linkcolor:rgb(17, 60, 199);
-    --havlinkcolor:rgb(253, 67, 238);
+    --linkcolor:rgb(24, 72, 230);
+    --havlinkcolor:rgb(231, 47, 15);
+    --lowwhite:rgba(212, 237, 247, 0.185);
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -32,7 +33,7 @@ a{
 
 #preloader {
     overflow: hidden;
-    background: #88ccd8;
+    background: var(--submain);
     left: 0;
     right: 0;
     top: 0;
@@ -422,9 +423,14 @@ html {
 .allproject:hover .project1,.allproject:hover p,.allproject:hover .project2{
     color:var(--havtxtcolor);
 }
-.allproject spam{
-    background-color:#dce3e979;
+.allproject:hover spam{
+    background-color:var(--main);
     color: black;
+
+}
+.allproject spam{
+    background-color:var(--lowwhite)
+    color:#fff;
     font-size: 26px;
     font-weight: bold;
     font-family: times;
@@ -457,6 +463,11 @@ html {
 }
 .education:hover .line{
  background-color:var(--havtxtcolor) ;
+}
+.education:hover h4 div{
+    background-color: var(--main);
+    padding-left:2px;
+    padding-right: 2px;
 }
 .education:hover h4,.education:hover p{
     color:var(--havtxtcolor);
@@ -677,12 +688,18 @@ button:hover {
     margin: 10px auto;
 }
 #experience  span{
+    color:#fff;
+    background-color: var(--lowwhite);
     text-shadow: 1px 1px var(--main) ;
     text-align: left;
     padding: 10px;
     font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
+}
+#experience:hover  span{
+    background-color: var(--main);
+    color: black;
 }
 
 
