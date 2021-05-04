@@ -778,6 +778,8 @@
   <script src="assets/js/custom.js"></script>
   <script>
     //according to loftblog tut
+    $(window).bind("load", function() {
+   // code here
     $(".main-menu li:first").addClass("active");
 
     var showSection = function showSection(section, isAnimate) {
@@ -827,11 +829,12 @@
     });
     $("#preloader").animate({
       'opacity': '0'
-    }, 4000, function () {
+    }, 6000, function () {
       setTimeout(function () {
         $("#preloader").css("visibility", "hidden").fadeOut();
-      }, 3000);
+      }, 100);
     });
+  });
   </script>
 </body>
 
