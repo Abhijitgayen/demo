@@ -2,11 +2,11 @@
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 :root{
-    --main: rgb(17, 197, 182);
-    --deepmian:rgb(25, 110, 136);
-    --submain: rgba(141, 204, 219, 0.938);
+    --main: rgb(9, 119, 133);
+    --deepmian:rgb(12, 89, 112);
+    --submain: rgba(159, 214, 221, 0.938);
     --background :rgba(54, 52, 52,0.322);
-    --havbackground:rgba(226, 243, 248, 0.411);
+    --havbackground:rgba(233, 242, 245, 0.308);
     --havtxtcolor:rgb(5, 1, 1);
     --linkcolor:rgb(24, 72, 230);
     --havlinkcolor:rgb(231, 47, 15);
