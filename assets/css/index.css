@@ -591,6 +591,8 @@ html {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 5px;
 }
 .education:hover .white-button a{
     background-color: var(--main);
@@ -789,7 +791,6 @@ button:hover {
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
-
 
 .service-item .white-button a{
     position: relative;
