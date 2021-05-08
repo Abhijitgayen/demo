@@ -1,17 +1,18 @@
 
 @import url(fontawesome.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+/* @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"); */
 :root{
-    --main: rgb(4, 149, 160);
+    --main: rgb(11, 166, 194);
     --deepmian:rgb(12, 89, 112);
     --submain: rgba(129, 209, 219, 0.842);
     --background :rgba(53, 69, 75, 0.301);
     --havbackground:rgba(172, 199, 204, 0.26);
     --havtxtcolor:rgb(5, 1, 1);
-    --linkcolor:rgb(24, 72, 230);
-    --havlinkcolor:rgb(231, 47, 15);
+    --linkcolor:rgb(7, 34, 124);
+    --havlinkcolor:rgb(124, 12, 59);
     --lowwhite:rgba(212, 237, 247, 0.185);
     --border: rgba(235, 228, 228, 0.219);
+    --mix:linear-gradient(to bottom left, rgba(201, 67, 172, 0.795) ,var(--main),rgba(27, 89, 204, 0.616),rgba(3, 14, 102, 0.192));
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -32,7 +33,7 @@ a{
 } */
 
 #page-wraper{
-    background-image: linear-gradient(to bottom right,#00fff9,var(--main),rgb(2, 76, 136),rgba(218, 37, 37, 0.801),red);
+    background-image: linear-gradient(to bottom right,#82ebe9,rgb(63, 189, 228),rgba(50, 218, 59, 0.986),rgb(231, 71, 71));
 }
 #preloader {
     overflow: hidden;
@@ -545,35 +546,35 @@ html {
     box-shadow: 1px 1px 1px var(--main);
 }
 .c .persentage .data{
-    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-image:var(--mix);
     background-color: white;
     width: 70%;
     padding: 10px;
     border-radius: 15px;
 }
 .cpp .persentage .data{
-    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-image:var(--mix);
     background-color: white;
     width: 40%;
     padding: 10px;
     border-radius: 15px;
 }
 .html .persentage .data{
-    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-image:var(--mix);
     background-color: white;
     width: 50%;
     padding: 10px;
     border-radius: 15px;
 }
 .css .persentage .data{
-    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-image:var(--mix);
     background-color: white;
     width: 60%;
     padding: 10px;
     border-radius: 15px;
 }
 .Javascript .persentage .data{
-    background-image:linear-gradient(to bottom left, rgba(14, 162, 173, 0.897) ,rgba(26, 70, 151, 0.74),rgba(8,23,145,0.23));
+    background-image:var(--mix);
     background-color: white;
     width: 30%;
     padding: 10px;
