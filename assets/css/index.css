@@ -36,6 +36,7 @@ a{
 } */
 
 #page-wraper{
+    overflow: hidden;
     background-image: linear-gradient(to bottom right,#82ebe9,rgb(63, 189, 228),rgba(50, 218, 59, 0.986),rgb(231, 71, 71));
 }
 #preloader {
