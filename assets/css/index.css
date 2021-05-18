@@ -14,6 +14,9 @@
     --border: rgba(235, 228, 228, 0.219);
     --mix:linear-gradient(to bottom left, rgba(201, 67, 172, 0.795) ,var(--main),rgba(27, 89, 204, 0.616),rgba(3, 14, 102, 0.192));
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Lato', sans-serif;
 }
