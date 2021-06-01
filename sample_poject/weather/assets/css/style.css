@@ -8,8 +8,7 @@ body, html {
   display: flex;
   min-height: calc(100vh - 0px);
   flex-direction: column;
-  /*background-image: url("../image/default_bg.jpg");*/
-  background-color: aqua;
+  background-image: url("../image/default_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
