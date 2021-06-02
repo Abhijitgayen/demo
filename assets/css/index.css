@@ -2,9 +2,9 @@
 @import url(fontawesome.css);
 /* @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"); */
 :root{
-    --main: rgba(11, 152, 187, 0.911);
-    --deepmian:rgb(12, 89, 112);
-    --submain: rgba(129, 209, 219, 0.842);
+    --main:#d2386c;
+    --deepmian:#bb2a5b;
+    --submain:#de6e93;
     --background :rgba(53, 69, 75, 0.301);
     --havbackground:rgba(172, 199, 204, 0.411);
     --havtxtcolor:rgb(5, 1, 1);
@@ -43,17 +43,17 @@ a{
     -o-background-size: cover;
     background-size: cover;
 }*/
-/* #page-wraper {
-    background: url(../images/main.jpg) no-repeat center center fixed;
+html,body{
+    background: url('https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?ixid=2yJhcHBfaWQiOjEyMDd9&fm=jpg&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-} */
+}
 
 #page-wraper{
-    background-image: var(--allbackground)
+    background-color:rgba(11, 152, 187, 0.311);
 }
 #preloader {
     overflow: hidden;
