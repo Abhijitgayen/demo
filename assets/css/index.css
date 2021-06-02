@@ -13,7 +13,7 @@
     --lowwhite:rgba(212, 237, 247, 0.185);
     --border: rgba(235, 228, 228, 0.219);
     --mix:linear-gradient(to bottom left, rgba(201, 67, 172, 0.795) ,var(--main),rgba(27, 89, 204, 0.616),rgba(3, 14, 102, 0.192));
-    --allbackground:linear-gradient(to bottom right,black,rgb(17, 9, 9));
+    --allbackground:linear-gradient(to bottom right,#0471A6,rgb(17, 9, 9));
 }
 html {
   scroll-behavior: smooth;
