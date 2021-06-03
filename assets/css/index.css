@@ -6,7 +6,7 @@
     --deepmian:#bb2a5b;
     --submain:#de6e93;
     --background :rgba(53, 69, 75, 0.301);
-    --havbackground:rgba(172, 199, 204, 0.411);
+    --havbackground:rgba(241, 246, 247, 0.801);
     --havtxtcolor:rgb(5, 1, 1);
     --linkcolor:rgb(7, 34, 124);
     --havlinkcolor:rgb(124, 12, 59);
@@ -14,18 +14,23 @@
     --border: rgba(235, 228, 228, 0.219);
     --mix:linear-gradient(to bottom left, rgba(201, 67, 172, 0.795) ,var(--main),rgba(27, 89, 204, 0.616),rgba(3, 14, 102, 0.192));
     --allbackground:linear-gradient(to bottom right,#31d4e0a2,rgba(13, 159, 185, 0.274),rgba(26,15,1,0.3));
-    --bigfont:2.5rem;
+    --bigfont:3.5rem;
     --subbigfont:2.1rem;
-    --midfont:2rem;
+    --midfont:2.1rem;
     --smallfont:1.5rem;
-    --verysmallfont:1rem;
-    --padding:13px;
+    --verysmallfont:1.2rem;
+    --padding:5px;
 }
 html {
   scroll-behavior: smooth;
 }
+*{
+    padding:0;
+    margin:0;
+}
 body {
-    font-family: 'Lato', sans-serif;
+    font-size: var(--verysmallfont);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a:hover{
     color:var(--havlinkcolor);
@@ -158,16 +163,19 @@ a:hover {
 }
 
 p {
-    font-size: 16px;
+    font-size: var(--verysmallfont);
     line-height: 24px;
     color: #fff;
 }
 
 h4 {
-    font-size: 26px;
+
+    font-size: var(--subbigfont);
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.25px;
+    /* background-color: red; */
+
 }
 
 img {
@@ -238,7 +246,7 @@ html {
     height: 65%;
     line-height: 50px;
     display: inline-block;
-    font-size: 16px;
+    font-size: var(--verysmallfont);
     font-weight: 700;
     color: #fff;
     width: 50%;
@@ -276,7 +284,7 @@ html {
 }
 
 .menu .author-content span {
-    font-size: 13px;
+    font-size: var(--verysmallfont);
     font-style: italic;
     color: #fff;
 }
@@ -299,7 +307,7 @@ html {
     line-height: 40px;
     background-color: rgba(0, 0, 0, 0.007);
     color: #fff;
-    font-size: 14px;
+    font-size: var(--verysmallfont);
     transition: all 0.5s;
     border-radius: 50%;
     border:1px solid white;
@@ -324,7 +332,7 @@ html {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: var(--verysmallfont);
 }
 
 .menu:before,
@@ -374,7 +382,7 @@ html {
 .menu-toggle {
   color: #fff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: var(--smallfont);
   position: fixed;
   right: 25px;
   top: 25px;
@@ -387,10 +395,10 @@ html {
     top: 10;
     left: 0;
     color: var(--deepmian);
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.162);
     width: 60px;
     height: 60px;
-    font-size:29px;
+    font-size:var(--subbigfont);
     text-align: center;
     display: inline-block;
     line-height: 60px;
@@ -417,9 +425,9 @@ html {
 
 .section {
     color: #fff;
-    width: 55%;
+     width: 55%;
     right: 10%;
-    left: 35%;
+    left: 35%; 
     position: relative;
     min-height: 100vh;
     padding-bottom: 80px;
@@ -428,12 +436,12 @@ html {
 }
 .welcome{
     text-align: center;
-    padding: 82px 1px 1px 1px;
+    padding: 22px 1px 1px 1px;
 }
 .welcome h2{
     font-weight: bold;
     font-family:cursive;
-    font-size: var(--bigfont);
+    font-size: var(--subbigfont);
 }
 .welcome .line-dec{
     width: 250px;
@@ -445,11 +453,11 @@ html {
 .hello{
     padding-top: 12px;
     text-align: center;
-    font-size:var(--bigfont);
+    font-size:var(--subbigfont);
 }
 i b{
     color: brown;
-    font-size: var(--bigfont)+1.5rem;
+    font-size: var(--subbigfont)+1.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
 .hello i{
@@ -465,7 +473,7 @@ i b{
 /* my project */
 .allproject{
         background:var(--background);
-        padding: 22px;
+        padding: 10px;
         text-align: left; 
         border-radius: 15px;
         border: 3px solid var(--border);
@@ -485,7 +493,7 @@ i b{
 .allproject spam{
     background-color:var(--lowwhite);
     color:#fff;
-    font-size: 26px;
+    font-size: var(--midfont);
     font-weight: bold;
     font-family: times;
     padding: 6px;
@@ -536,7 +544,7 @@ i b{
 }
 .education{
     background:var(--background);
-    padding: 22px;
+    padding: var(--padding);
     text-align: center;
     border-radius: 15px;
     border:3px solid var(--border);
@@ -663,7 +671,7 @@ button {
     padding: 10px 20px;
     background-color: #fff;
     color: var(--main);
-    font-size: 12px;
+    font-size: var(--verysmallfont);
     font-weight: 800;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -697,7 +705,7 @@ button:hover {
 .left-image-post h4 {
     margin-top: 10px;
     font-family: cursive;
-    font-size:15px;
+    font-size:var(--verysmallfont);
     font-weight: 100;
 }
 .right-image-post h4 b,
@@ -705,7 +713,7 @@ button:hover {
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size:25px;
+    font-size:var(--smallfont);
 }
 
 .right-image-post p,
@@ -719,12 +727,12 @@ button:hover {
 }
 .left-text p{ 
     /* background-color: yellow; */
-    font-size: 15px;
+    font-size: var(--verysmallfont);
 
 }
 .right-text p{
     /* background-color: yellow; */
-    font-size: 15px;
+    font-size: var(--verysmallfont);
 }
 /*experience*/
 #expall span{
@@ -736,7 +744,7 @@ button:hover {
 #experience{
     margin-top: 12px;
     background-color: var(--background);
-    padding: 37px;
+    padding: var(--padding);
     border-radius: 15px;
     border: 3px solid var(--border);
 }
@@ -752,7 +760,7 @@ button:hover {
 }
 #experience h2{
     text-align: center;
-    font-size: 29px;
+    font-size: var(--midfont);
 }
 
 #experience .line{
@@ -767,7 +775,7 @@ button:hover {
     text-shadow: 1px 1px var(--main) ;
     text-align: left;
     padding: 10px;
-    font-size: 19px;
+    font-size: var(--smallfont);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
@@ -831,7 +839,7 @@ button:hover {
     line-height: 40px;
     padding: 5px;
     color: #fff;
-    font-size: 74px;
+    font-size: var(--bigfont);
     transition: all 0.5s;
     border-radius: 50%;
     border:4px solid white;
@@ -877,7 +885,7 @@ section.contact-me {
     border-radius: 0px;
     margin-bottom: 30px;
     color: #fff;
-    font-size: 14px;
+    font-size: var(--verysmallfont);
     height: 40px;
     line-height: 40px;
     width: 100%;
@@ -895,7 +903,7 @@ section.contact-me {
     border-radius: 0px;
     margin-bottom: 30px;
     color: #fff;
-    font-size: 14px;
+    font-size: var(--verysmallfont);
     height: 180px;
     max-height: 220px;
     line-height: 40px;
@@ -971,9 +979,15 @@ section.contact-me {
     padding-right: 0;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 846px) {
+@media screen and (max-width: 1280px) and (min-width: 825px) {
     .menu {
         width: 25%;
+    }
+    .section{
+        width: 75%;
+        left:25%;
+        right: 0%;
+
     }
    
 }
@@ -986,21 +1000,26 @@ section.contact-me {
 {
     .right-text h4 b{
         /* background-color: yellow; */
-        font-size: 24px;
+        font-size: 21px;
     }
     .left-text h4 b{
         /* background-color: yellow; */
-        font-size: 24px;
+        font-size: 21px;
     }
     .right-text p{
         /* background-color: yellow; */
-        font-size: 12px;
+        font-size: 15px;
     }
     .left-text p{
         /* background-color: yellow; */
-        font-size: 12px;
+        font-size: 15px;
     }
-    
+    .section{
+        /* background-color: red; */
+        padding: 0;
+        margin: 0;
+        border: 0px;
+    }
    
 }
 @media screen and (max-width: 1245px) and (min-width:625px){
@@ -1056,9 +1075,9 @@ section.contact-me {
         display: inline-block;
     }
     .section {
-        width: 94%;
-        right: 1%;
-        left: 5%;
+        width: 99.9%;
+        right: 1.2%;
+        left: 1%;
     }
     .isotope-item {
         width: 94%;
