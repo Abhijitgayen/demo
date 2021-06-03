@@ -31,7 +31,7 @@
     <div class="all_deatis">
       <div class="location_details">
         <ul class="has-text-centered">
-          <li class="loc_icon icon2">
+          <li class="loc_icon " id ="icon2">
             <i class="fas fa-map-marker-alt"></i>
           </li>
 
@@ -47,7 +47,7 @@
             <strong><span id="location_lon">None</span> ° E</strong>
           </li>
 
-          <li class="sun_icon icon2">
+          <li class="sun_icon " id ="icon2">
             <i class="fas fa-cloud-sun"></i>
           </li>
           <li class="location_temp_syssunrise">Sun-Rise :
@@ -62,7 +62,9 @@
       </div>
       <div class="location_temp">
         <ul class="has-text-centered">
-
+          <li class="icon_temp " id ="icon2">
+            <i class="fas fa-temperature-high"></i>
+          </li>
           <li class="location_temp1">Temprature :
             <strong><span id="location_temp">0</span> °C</strong>
           </li>
@@ -74,11 +76,14 @@
           <li class="location_temp_min">Min Temprature :
             <strong><span id="location_temp_min">0</span> °C</strong>
           </li>
+          <li class="icon_pressure  " id ="icon2"><i class="fas fa-wind"></i></li>
 
           <li class="location_temp_pressure">Pressure :
             <strong><span id="location_temp_pressure">0</span> hpa</strong>
           </li>
-
+          <li class="icon_humidity " id ="icon2">
+            <i class="fas fa-tint"></i>
+          </li>
           <li class="location_temp_humidity">Humidity :
             <strong><span id="location_temp_humidity">0</span> %</strong>
           </li>
@@ -88,7 +93,9 @@
       </div>
       <div class="location_wind">
         <ul class="has-text-centered">
-
+<li class="icon_wind " id ="icon2">
+  <i class="fas fa-wind"></i>
+</li>
           <li class="location_temp_windspeed">Wind speed :
             <strong><span id="location_temp_windspeed">0</span> meter/sec</strong>
           </li>
@@ -100,7 +107,9 @@
           <li class="location_temp_windgust">Wind Gust :
             <strong><span id="location_temp_windgust">0</span> meter/sec</strong>
           </li>
-
+<li class="icon_cloud " id ="icon2">
+  <i class="fas fa-cloud"></i>
+</li>
           <li class="location_temp_cloudsall">Clouds  :
             <strong><span id="location_temp_cloudsall">0</span> %</strong>
           </li>
@@ -116,10 +125,10 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="social">
-
+<div class="socialset">
       <!-- Facebook -->
     <div class="control">
-      <a class="button is-custom-button-social" href="#">
+      <a class="button is-custom-button-social" href="https://www.facebook.com/abhijit.gayen.121/">
         <span class="icon">
           <i class="fab  fa-facebook-f "></i>
         </span>
@@ -137,7 +146,7 @@
 
     <!-- Instagram -->
     <div class="control">
-      <a class="button is-custom-button-social" href="#">
+      <a class="button is-custom-button-social" href="https://www.instagram.com/zero_encode/">
         <span class="icon">
           <i class="fab  fa-instagram"></i>
         </span>
@@ -146,7 +155,7 @@
 
     <!-- GitHub -->
     <div class="control">
-      <a class="button is-custom-button-social" href="#">
+      <a class="button is-custom-button-social" href="https://github.com/Abhijitgayen">
         <span class="icon">
           <i class="fab  fa-github"></i>
         </span>
@@ -155,7 +164,7 @@
 
     <!-- LinkedIn -->
     <div class="control">
-      <a class="button is-custom-button-social" href="#">
+      <a class="button is-custom-button-social" href="https://www.linkedin.com/in/abhijit-gayen-628b931b7/">
         <span class="icon">
           <i class="fab  fa-linkedin-in"></i>
         </span>
@@ -164,20 +173,22 @@
 
     <!-- Mail -->
     <div class="control">
-      <a class="button is-custom-button-social" href="mailto:georgemou31@hotmail.com">
+      <a class="button is-custom-button-social" href="mailto:abhijitgayen428@gmail.com">
         <span class="icon">
           <i class="fas fa-envelope"></i>
         </span>
       </a>
     </div>
-
+  </div>
     </div>
     
 
     <!-- Copyright -->
-    <p class="has-text-centered"> By <a href="https//abhijitgayen.github.io/" class="is-custom-footer-link">Abhijit
+    <div class="copyright">
+    <p class="has-text-centered"> By <a href="http://abhijitgayen.github.io/" class="is-custom-footer-link">Abhijit
         Gayen</a> &copy; <span id="copyright"></span>
     </p>
+  </div>
     </div>
     </div>
   </footer>

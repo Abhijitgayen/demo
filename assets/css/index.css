@@ -13,7 +13,13 @@
     --lowwhite:rgba(212, 237, 247, 0.185);
     --border: rgba(235, 228, 228, 0.219);
     --mix:linear-gradient(to bottom left, rgba(201, 67, 172, 0.795) ,var(--main),rgba(27, 89, 204, 0.616),rgba(3, 14, 102, 0.192));
-    --allbackground:linear-gradient(to bottom right,#0471A6,rgb(17, 9, 9));
+    --allbackground:linear-gradient(to bottom right,#31d4e0a2,rgba(13, 159, 185, 0.274),rgba(26,15,1,0.3));
+    --bigfont:2.5rem;
+    --subbigfont:2.1rem;
+    --midfont:2rem;
+    --smallfont:1.5rem;
+    --verysmallfont:1rem;
+    --padding:13px;
 }
 html {
   scroll-behavior: smooth;
@@ -53,7 +59,7 @@ html,body{
 }
 
 #page-wraper{
-    background-color:rgba(11, 152, 187, 0.311);
+    background-color:rgba(2, 34, 43, 0.795);
 }
 #preloader {
     overflow: hidden;
@@ -209,6 +215,7 @@ html {
 
 .container {
     margin: 0 auto;
+    /* background-color: red; */
 }
 
 .main-nav {
@@ -417,14 +424,16 @@ html {
     min-height: 100vh;
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+    /* background-color: red; */
 }
 .welcome{
     text-align: center;
-    padding: 12px 1px 1px 1px;
+    padding: 82px 1px 1px 1px;
 }
 .welcome h2{
-    font-weight: 500;
+    font-weight: bold;
     font-family:cursive;
+    font-size: var(--bigfont);
 }
 .welcome .line-dec{
     width: 250px;
@@ -436,6 +445,22 @@ html {
 .hello{
     padding-top: 12px;
     text-align: center;
+    font-size:var(--bigfont);
+}
+i b{
+    color: brown;
+    font-size: var(--bigfont)+1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello i{
+    font-family:cursive;
+}
+.about_web{
+    color:white;
+    padding: 4rem 0rem;
+    font-size: var(--smallfont);
+    text-align: center;
+
 }
 /* my project */
 .allproject{
@@ -478,7 +503,7 @@ html {
 
 .section-heading h2  {
     padding-top: 23px;
-    font-size: 35px;
+    font-size: var(--subbigfont);
     font-weight: 700;
     color: #fff;
     text-align: center;
@@ -767,7 +792,7 @@ button:hover {
     border: 3px solid var(--border);
     border-radius: 15px;
     margin-bottom: 10px;
-    padding: 50px;
+    padding: 25px;
     background-color:var(--background);
     transition: all 0.5s;
 }
@@ -1032,8 +1057,8 @@ section.contact-me {
     }
     .section {
         width: 94%;
-        right: 3%;
-        left: 3%;
+        right: 1%;
+        left: 5%;
     }
     .isotope-item {
         width: 94%;
