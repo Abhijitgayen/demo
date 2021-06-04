@@ -5,10 +5,15 @@
     --icon2font:2rem;
     --mianfont:1.2rem;
 }
+@media screen and (max-width: 445px) {
+  :root{
+    --mianfont:0.9rem;
+  }
+}
+
 *{
     padding: 0;
     margin:0;
-    font-size:var(--mianfont)
 }
  body,html {
     display: flex;
@@ -23,14 +28,16 @@
   }
   .all_data{
     background-color: rgba(33, 243, 243, 0.384);
+    width: 100%;
+    padding:0;
+    margin:0;
   }
   footer {
-    
     background-color: rgba(35, 241, 248, 0.911);
   }
   /*social icon*/
   .social{
-      padding: 0px 120px;
+      padding: 15px 20px;
   }
   .socialset{
       padding: auto;
@@ -50,11 +57,11 @@
     width:2.5rem;
     background-color: rgba(65, 205, 230, 0.027);
     padding: 2px;
-    margin: 5px;
+    margin: 2px;
     border-radius: 15px;
     border:3px solid rgba(69, 52, 224, 0.973);
-    text-shadow: 2px 1px black;
-    box-shadow: 2px 1px white;
+    text-shadow: 1px 1px black;
+    box-shadow: 3px 1px white;
   }
   .icon{
       /* background-color: seashell; */
@@ -67,11 +74,14 @@ color:white;
   }
   /*serach*/
   .search_from{
-    padding: 5% 22% 2% 22%;
+    padding:10% 0% 10% 0%;
+    position: relative;
+    width: 60%;
+    right:20%;
+    left:20%;
     text-shadow: 1px 1px black;
   }
   .searchall{
-      
       background-color: rgba(27, 25, 25, 0.11);
       display: flex;
       flex:3;
@@ -127,8 +137,9 @@ color:white;
   }
   .location_details,.location_temp,.location_wind{
       background-color: rgba(4, 5, 54, 0.452);
-      padding:3rem;
-      margin:12px;
+      padding:1rem 0.3rem;
+      margin:2px;
+      font-size: var(--mianfont);
       border-radius: 8px;
       border:2px solid silver;
       box-shadow: 2px 2px rgba(4, 5, 54, 0.452);
@@ -147,9 +158,10 @@ color:white;
   /*for differnt device*/
   @media screen and (max-width: 1245px) {
     .search_from{
-        padding: 6% 12% 0% 20% ;
-
-    } 
+      width: 60%;
+      right:20%;
+      left:20%;
+    }
 .all_deatis{
    text-align: center;
    grid-template-columns: auto auto;
@@ -159,17 +171,39 @@ color:white;
  }
 
   @media screen and (max-width: 945px) {
-     .search_from{
-         padding: 10% 2% ;
-
-     } 
+    .search_from{
+      padding-top:45px;
+      position: relative;
+      width: 60%;
+      right:20%;
+      left:20%;
+      text-shadow: 1px 1px black;
+    }
      .social{
          padding:10px;
      }
 .all_deatis{
     text-align: center;
     grid-template-columns: auto;
-}
-
-      
+}    
   }
+  @media screen and (max-width: 445px) {
+    .search_from{
+      width: 80%;
+      right:10%;
+      left:10%;
+      text-shadow: 1px 1px black;
+    }
+    .social{
+        padding:10px;
+    }
+    .socialset{
+      grid-template-columns: repeat(3,auto);
+    }
+.all_deatis{
+   text-align: center;
+   grid-template-columns: auto;
+}    
+ }
+
+  

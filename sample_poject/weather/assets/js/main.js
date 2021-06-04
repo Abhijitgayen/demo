@@ -17,7 +17,7 @@ $(".search").on("change keyup paste", function() {
   function time( sec,lpc){
     var date = new Date(sec * 1000);
     var timestr = date.toLocaleTimeString();
-    console.log(date, timestr);
+    // console.log(date, timestr);
     return timestr
 // $("#d1").html(date);
 // $("#d2").html(timestr);
@@ -41,10 +41,6 @@ $(".search").on("change keyup paste", function() {
       document.getElementById("location_temp_winddeg").innerHTML = res.wind.deg;
       document.getElementById("location_temp_cloudsall").innerHTML = res.clouds.all;
        $(".getapi").css('display', 'flex');
-    } else {
-      alert("not ok")
-      // $(".notgetapi").css('display', 'flex');
-      
-    }
+    } 
   });
 });
