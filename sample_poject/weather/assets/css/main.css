@@ -134,16 +134,17 @@ color:white;
       display: grid;
       grid-template-columns: auto auto  auto;
       padding:25px;
+  
   }
   .location_details,.location_temp,.location_wind{
       background-color: rgba(4, 5, 54, 0.452);
       padding:1rem 0.3rem;
-      margin:2px;
+      margin:12px;
       font-size: var(--mianfont);
       border-radius: 8px;
       border:2px solid silver;
-      box-shadow: 2px 2px rgba(4, 5, 54, 0.452);
-      text-shadow: 1px 3px black;
+      box-shadow: 3px 5px rgba(234, 234, 236, 0.247);
+      text-shadow: 1px 0.5px black;
   }
   ul li{
       list-style-type: none;
