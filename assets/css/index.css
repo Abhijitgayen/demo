@@ -68,6 +68,7 @@ html,body{
 }
 #preloader {
     overflow: hidden;
+    position: fixed;
     background: var(--submain);
     left: 0;
     right: 0;
@@ -439,7 +440,7 @@ html {
     padding: 22px 1px 1px 1px;
 }
 .welcome h2{
-    font-weight: bold;
+    font-weight: bolder;
     font-family:cursive;
     font-size: var(--subbigfont);
 }
@@ -457,7 +458,7 @@ html {
 }
 i b{
     color: brown;
-    font-size: var(--subbigfont)+1.5rem;
+    font-size: 2.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
 .hello i{
@@ -491,7 +492,6 @@ i b{
 
 }
 iframe{
-    background-color: red;
     width: calc(100%);
     height: 344px;
 }
