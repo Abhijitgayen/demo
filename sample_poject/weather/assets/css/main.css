@@ -5,9 +5,9 @@
     --icon2font:2rem;
     --mianfont:1.2rem;
 }
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 825px) {
   :root{
-    --mianfont:10px;
+    --mianfont:0.8px;
   }
 }
 
