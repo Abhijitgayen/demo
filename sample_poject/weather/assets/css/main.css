@@ -3,11 +3,11 @@
     --submain:red;
     --backgroundall:green;
     --icon2font:2rem;
-    --mianfont:1.2rem;
+    --mianfont:25px;
 }
 @media screen and (min-width: 825px) {
   :root{
-    --mianfont:1.5rem;
+   /* --mianfont:1.5rem;*/
   }
 }
 
