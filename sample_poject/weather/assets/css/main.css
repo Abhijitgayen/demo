@@ -24,7 +24,7 @@
     display: flex;
     min-height: calc(100vh - 0px);
     flex-direction: column;
-    background-color: rgba(233, 238, 238, 0.541);
+    background-color: rgba(245, 252, 252, 0.993);
      /* background-image: url("https://source.unsplash.com/user/erondu/1600x900");  */
     background-position: center;
     background-repeat: no-repeat;
@@ -39,10 +39,7 @@
     margin:0;
   }
   footer {
-    /* background-color: black; */
-    /* position: fixed; */
-    bottom: 0px;
-    width: 100%;
+    padding-bottom:56px ;
   }
   /*social icon*/
   .social{
@@ -56,20 +53,25 @@
      /* background-color: chartreuse; */
   }
 .socialset .social__icon:hover{
-  color:rgba(244, 243, 250, 0.932);
-  background-color: aqua;
   box-shadow: 0px 2px 25px rgb(10, 10, 10);  
   border-radius: 15%;
   /* border: 5px solid red; */
+  color: aqua;
+  border: 3px solid aqua;
+  background-color: aliceblue;
 }
-  .social__icon{
+.social__icon{
+  margin: 10px;
+
+}
+.social__icon{
+  background-color: aqua;
+    color:rgba(244, 243, 250, 0.932);
     border-radius: 15%;
     font-size: 25px;
     justify-content: center;
-    color: aqua;
     /* background-color: green; */
     padding: 15px;
-    border: 3px solid aqua;
   }
   .is-custom-button-social {
 color:white;
@@ -163,9 +165,20 @@ color:white;
  
 
   .copyright{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow:0px 2px 12px black;
+    background-color: aliceblue;
       text-align:right;
-      font-size: var(--submain);
+      font-size: 30px;
       padding-right: 1.9rem;
+      color: aqua;
+      padding: 12px 10px 12px 0px;
+  }
+  .copyright a{
+    color: aqua;
+    text-decoration: none;
   }
   /*for differnt device*/
   @media screen and (min-width: 945px) and (max-width:1245px){
@@ -287,15 +300,16 @@ color:white;
     grid-template-columns: auto;
 }    
   }
-  @media screen and (max-width: 345px) {
+  @media screen and (max-width: 365px) {
     .search_from{
-      width: 80%;
-      right:10%;
-      left:10%;
+      width: 275px;
+      left: 30px;
+      right: 30px;
       text-shadow: 0px 2px 10px black;
     }
     html{
-      width: 345px;
+      width: 365px;
+      background-color: rgb(250, 248, 248);
     }
     .social{
         padding:10px;
